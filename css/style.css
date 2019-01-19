@@ -34,7 +34,7 @@ h6 {
 #particles-js {
     background: #484848;
     display: table;
-    height: 100%;
+    height: calc(100% - 52px);
     width: 100%;
     background-size: cover;
 }
@@ -69,7 +69,6 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-	
 }
 
 .navbar-brand {

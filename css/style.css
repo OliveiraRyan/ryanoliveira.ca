@@ -18,6 +18,38 @@ html {
     height: 100%;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #3498DB;
+}
+
 h1,
 h2,
 h3,
@@ -34,9 +66,10 @@ h6 {
 #particles-js {
     background: #484848;
     display: table;
-    height: calc(100% - 52px);
+    height: 100%;
     width: 100%;
     background-size: cover;
+	position: relative;
 }
 
 p {

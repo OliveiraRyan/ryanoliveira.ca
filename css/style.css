@@ -345,28 +345,31 @@ hr {
 
 @media only screen and (max-width: 600px) {
     .intro .slogan h2 {
-        font-size: 74px;
+        font-size: 50px;
     }
     .intro .slogan h4 {
         font-size: 14px;
     }
-  }
-  @media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
     .intro .slogan h2 {
-        font-size: 100px;
+        font-size: 74px;
     }
     .intro .slogan h4 {
         font-size: 20px;
     }
   }
-  @media only screen and (min-width: 768px) {
+  
+@media only screen and (min-width: 768px) and (min-height: 600px) {
     .intro .slogan h2 {
-        font-size: 150px;
+        font-size: 145px;
     }
     .intro .slogan h4 {
         font-size: 20px;
     }
 }
+
 
 .intro {
 	width:100%;

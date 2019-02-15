@@ -18,7 +18,7 @@ html {
     height: 100%;
 }
 
-ul {
+.topbar-nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -30,11 +30,12 @@ ul {
 	left: 0;
 	width: 100%;
 }
-li {
+
+.topbar-nav li {
 	float: left;
 }
 
-li a {
+.topbar-nav li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -42,9 +43,14 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.topbar-nav li a:hover:not(.active) {
 	background-color: #3498DB;
 	color: black;
+}
+
+.list-unstyled li {
+    color: #3498DB;
+    
 }
 
 h1,
@@ -69,6 +75,10 @@ h6 {
 	position: relative;
 }
 
+hr.small {
+    max-width: 100px;
+}
+
 p {
     margin: 0 0 20px;
     font-size: 16px;
@@ -89,117 +99,14 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: #3498DB;
 }
 
 .light {
     font-weight: 400;
 }
 
-.navbar {
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-}
-
-.navbar-brand {
-    font-weight: 700;
-}
-.navbar-brand {
-  height: 40px;
-  padding: 5px 15px;
-  font-size: 18px;
-  line-height: 1em;
-}
-
-.navbar-brand h1{
-	color: #fff;
-  font-size: 20px;
-  line-height: 40px;
-}
-
-.navbar-brand:focus {
-    outline: 0;
-}
-
-.nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
-}
-
-.navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(0,0,0,0);
-}
-
-
-.navbar-custom ul.nav li a {
-	font-size: 12px;
-	letter-spacing: 1px;
-    color: #444;
-	text-transform: uppercase;
-	font-weight: 700;
-}
-
-.navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-	color: #fff;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu {
-	  border-radius: 0;	
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li {
-	border-bottom: 1px solid #f5f5f5;
-
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li:last-child{
-	border-bottom: none;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li a {
-	padding: 10px 20px;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	background: #fefefe;
-}
-
-.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-	color: #666;
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-
-.navbar-toggle {
-    padding: 4px 6px;
-    font-size: 14px;
-    color: #fff;
-}
-
-.navbar-toggle:focus,
-.navbar-toggle:active {
-    outline: 0;
-}
-
+/*I MADE IT UP TO HERE*/
 
 /* loader */
 #preloader {
@@ -282,6 +189,7 @@ a:focus {
 /* misc */
 hr {
   margin-top: 10px;
+  border-top: 1px solid #ccc;
 }
 
 /* margins */
@@ -414,7 +322,8 @@ hr {
 	border-width: 0px;
 	border-color: #000;
 	border-style: none;
-	text-shadow: -1px 0 1px #000;
+    text-shadow: -1px 0 1px #000;
+
 }
 
 .intro .slogan h4 {
@@ -528,8 +437,8 @@ hr {
 ============================ */
 
 #contact p {
-    font-size: 36px;
-    color: white;
+    font-size: 12px;
+    color: #777;
 }
 
 #contact strong, a{
@@ -718,7 +627,7 @@ footer {
 }
 
 footer a {
-	color: #f8f8f8;
+	color: #333;
 
 }
 

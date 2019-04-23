@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Text Compare</title>
+
+        <script>
+
+            function compare(){
+                // Use a smarter regex to check
+                // Highlight where the text differs -- similar to VSCode merge conflict highlighting
+                let text1 = document.getElementById("arg1").value;
+                let text2 = document.getElementById("arg2").value;
+                let i = document.getElementById("compareOutput");
+
+                if (text1 == text2){
+                    i.innerHTML = "yep";
+                } else {
+                    i.innerHTML = "nope";
+                }
+                
+            }
+
+            function clearText(){
+                document.getElementById("arg1").value = "";
+                document.getElementById("arg2").value = "";
+                document.getElementById("compareOutput").innerHTML = "";
+            }
+            
+        </script>
+    </head>
+
+    <body>
+        <h3>Compare Text!</h3>
+        <form name="compareForm">
+            <!-- Move style tag into css file -->
+            <!-- Fix script so both textareas can receive dragged and dropped text AND files -->
+            <textarea style="resize: none;" rows="25" cols="75" placeholder="Place text version 1 here!" id="arg1"></textarea>
+            <textarea style="resize: none;" rows="25" cols="75" placeholder="Place text version 2 here!" id="arg2"></textarea>
+            <!-- <script>
+                function handleFileSelect(evt) {
+                    evt.stopPropagation();
+                    evt.preventDefault();
+                
+                    var files = evt.dataTransfer.files; // FileList object.
+                    var reader = new FileReader();  
+                    reader.onload = function(event) {            
+                        document.getElementById('arg1').value = event.target.result;
+                    }        
+                    reader.readAsText(files[0],"UTF-8");
+                }
+                
+                function handleDragOver(evt) {
+                    evt.stopPropagation();
+                    evt.preventDefault();
+                    evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
+                }
+                
+                // Setup the dnd listeners.
+                var dropZone = document.getElementById('arg1');
+                dropZone.addEventListener('dragover', handleDragOver, false);
+                dropZone.addEventListener('drop', handleFileSelect, false);
+            </script> -->
+            </br>
+            <input type="button" value="Compare" onclick="compare();"/>
+            <input type="button" value="Clear" onclick="clearText();"/>
+        </form>
+        <div id="compareOutput"></div>
+    </body>
+
+</html>

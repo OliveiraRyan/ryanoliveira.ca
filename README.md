@@ -3,12 +3,13 @@
 ## TODO
 * Make nodes background black -- **DONE**
 * Less nodes & make nodes move slower -- **DONE**
-* Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly)
 * Make Navbar black (same color as the particles-js background) -- **DONE**
-* Make the bottom edge of the Navbar have a shadow
+* Make Navbar stay at top of screen always -- **DONE**
+* Make the bottom edge of the Navbar have a shadow -- **DONE**
 * Make Navbar faded & fade in after scrolling down
   * 1 scroll *tick* from the top is when the Navbar should start fading in/out
 * Turn the Navbar into a Hamburger Menu on mobile
+* Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly)
 * Center name on node background & make name smaller
   * Make this consistent across all screen sizes
     * Inherently an issue with hardcoded values
@@ -22,7 +23,12 @@
 * Make a nested Footer (top part with info being dark grey AND the copyright thing at the bottom be black)
 * Make resume open on new tab
 
+**<u>
+5/17
+</u>**
+
 ## Optional TODO
 * Add a profile pic on top of the name at the top of the page
 * Make an *Impossible List* section
   * Have the list in a JSON and have it auto-formatted on the page
+* particles-js hangs *slightly* below screen height. Not really noticeable, but can be improved

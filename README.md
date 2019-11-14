@@ -6,7 +6,7 @@
 * Make Navbar black (same color as the particles-js background) -- **DONE**
 * Make Navbar stay at top of screen always -- **DONE**
 * Make the bottom edge of the Navbar have a shadow -- **DONE**
-* Make Navbar faded & fade in after scrolling down
+* Make Navbar faded & fade in after scrolling down -- **DONE**
   * 1 scroll *tick* from the top is when the Navbar should start fading in/out
 * Turn the Navbar into a Hamburger Menu on mobile
 * Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly)
@@ -24,7 +24,7 @@
 * Make resume open on new tab
 
 **<u>
-5/17
+6/17
 </u>**
 
 ## Optional TODO

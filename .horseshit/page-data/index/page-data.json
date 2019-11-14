@@ -1,0 +1,214 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {
+      "data": {
+        "aboutme": {
+          "markdown": {
+            "html": "<p><strong>Hey!</strong></p>\n<p>I'm Diogo Torres Correia from Portugal!<br>\nI love programming, as well as running, taking photos and learning new things!<br>\nFeel free to get in touch or take a look at my past work below.</p>"
+          }
+        },
+        "topProjects": {
+          "nodes": [
+            {
+              "html": "<p>Triton is a Spigot plugin for Minecraft that enables a Minecraft server to send messages in the player's language.<br>\nThis was my first premium plugin on Spigot and I've put a lot of work and effort into it!</p>",
+              "frontmatter": {
+                "name": "Triton",
+                "link": "https://triton.rexcantor64.com",
+                "calltoaction": "Visit Website",
+                "background": "#0a74db",
+                "color": "#fff",
+                "icon": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAARlAAAEZQAGA43XUAAAB40lEQVQ4y42UTyjEQRTHd/a3Ng4ibQhtLg7+FNGWq0hy1ZabiJQbRydxc1s5r9rNf4mbOCqR2yrRlhxJLlL+7893+M56v9/+/NqpTzPvzXtv3sy8mUDAo9m27Sv7Nm0MLEMulwtRXw+GITdSDkk7swjmi16oF9hwiPsl46VsAKtw3EC/DnSfAsf2bzulvAbSsNM2m6CJ/soREAatUL7rZMCn/ddewQN4AV9C/8HMuxkw6M4whMka9LVA96WgHNQx+whoAW9gBbZlPN8ScQe+ZzcI2uUZoZ9idjFhp0x2jqD6ljhpcfKAzlHKEWZ3ZHZUVEmJ1aIMaAJsUW4Ttp1gH8SNb0GWnDBZjosb1m2G+jD7NPVX8HVuWwcTAZXI4oROF66dVINH8MTb7jPJ/AQUBy+DLTHYDZ2S4kgmODcGnjGXcgTklpWoywQddvUWQZLyIh3PwD1td1jDlfk48pYwXqbztmube2CatanbAvUDlEfyd4CoFqPPu4OJj8JcxhxtsuAc8xnKhzJDReMYSJg6E2cWFGeU5ZO8BLfgGtzxaTb7/X9Kfm0c9zCbScrm6XVRPxtwPS9lCtTo+YqCrhdU5VEVGZZRWAYsGAtZLzSEBfrF4vnFoO8Ao5ArivrR/zsOr//wG+7gOxq8C90zAAAAAElFTkSuQmCC",
+                      "width": 80,
+                      "height": 80,
+                      "src": "/static/bf77f0aef9007e65b97c53fea8770f72/8b091/triton.png",
+                      "srcSet": "/static/bf77f0aef9007e65b97c53fea8770f72/8b091/triton.png 1x,\n/static/bf77f0aef9007e65b97c53fea8770f72/1e576/triton.png 1.5x,\n/static/bf77f0aef9007e65b97c53fea8770f72/6cb10/triton.png 2x",
+                      "srcWebp": "/static/bf77f0aef9007e65b97c53fea8770f72/3a287/triton.webp",
+                      "srcSetWebp": "/static/bf77f0aef9007e65b97c53fea8770f72/3a287/triton.webp 1x,\n/static/bf77f0aef9007e65b97c53fea8770f72/10741/triton.webp 1.5x,\n/static/bf77f0aef9007e65b97c53fea8770f72/edc3c/triton.webp 2x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "html": "<p>Craftathon is a weekend-long charity event that managed to raise $7,599 for Child's Play Charity in two events (2017 and 2018).\nI was mainly involved in creating and testing the donation and ticket system.</p>",
+              "frontmatter": {
+                "name": "Craftathon",
+                "link": "https://craftathon.org",
+                "calltoaction": "Visit Website",
+                "background": "#e91425",
+                "color": "#fff",
+                "icon": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFiklEQVQ4y42VezTUaRjHX0YrtYV0ISFJWspiYrRuO+6J2lauuU3kFjISgyK3MDGDcpllUHZc5gyhzkyiRi6J0tpSJ0ms3e2ord22rW1jvM+aX8t29q99znne5znv+z6f33O+zznvD5UMjyPe+LQsKz8TSc1j3nOuCkhJT9+Ror57SNov7ESFnWKUOjRKqgMgRQPIxL4DuexHYySPy4MojIJQhKM8UZu0RwYtWun8RXZ/r1zWfET/0wAAFc47qgbkb/TPZl5Lu1bdrbv7P754JCsygy5sj0t58DBs6FXdslbe6U8LhkeiuFPTzdnPXlxIfj59hjsx5vXfD/jozy+hl/psmZOvgTf1VMR9PBHN6O5OSns8CQGjL8Gy7QGoV3QV0DoehRrWPXminTvyfGPZBGzq/gP8p99C5uv3XSfPZYnjbFHbTg20gqBmiHst08d/hZCJtxD1ag68ns+A+bVRyef825JtyS3YMoIJrABy7fk9CvHZBfFOykECP5TQLibfewHUn9/B5v7fwNTPb9YBIV0CGN4j0vSe/OXPjdUDc6pNI7NrWkYl8jkd2JDBxw0dgzjN3wr7bCFBoAEJmIk0GPx+tCM3xt5Ml9/3HuUPzaKUHkAHhUMLmhJGHfvpjk7VMJCSrkmcsytx6mFHnMtpglqBCId5umJ3e4rEw85UQg/2hTrRALBZhS8zIiwlZqE1IOfSDIrB12Gdr8BmUUwN8Z04zdYpUIps/yvrVAFOdtYAG2sqjgyLxMUcHi7jNkJpZQMUltRgWkDgnJ3Nl8D0NYZTOQUPloW3j2qWT4HBySsnFoEDTRpy6/LF/coJQ5BVzMMOBmrYRhOBq44MdtFXwnu3q4CX8WrsZrACu2+VxbYaaNbH8QtobhTUkZtvJWhffwVLM0VsAqYYUytLJNoxa+T3VTWUC7rf+O5zhUAjOcx004JWGhly7NXw2d3a0BJsAcl26uCtLyuJjo4FUUc/f+/dm4Zbu38HFHExe7FD3eQa2YU8OY8jYsTFQYypomTogAmeDjDHwwE2+JazHn4WYIm75odEM1GZTTmeBYmp7DyL8Ukd1eIxQLv5Vh8Ih1qJcLT80hJpPNfWG1zRKIRUS33JPUcK3HCxwH12ZBhwouBBB1N839UM053McVXLdWitbyKvKuzbrnriapO0VkxMWWYJKjrDRtWsEyTpZs3pRDrrZBzQDFZJODo6mL9FD9ptrHAH1RqEW/VwrZ4m9jZRmyvKYkAJg0ZMdheHpiCNCkF5CN3oqCY6TI1wJzr0omiFRrqQIZSiIgnWXYmPaWrgCq0tUKamiRnqq3GA3nIcZqkqCXc2gZTgXRcWpKLSc/99A9oaikgLedOV3oaK0jKIpcjPJVBX4TDySnxQRRmHrFfGoRRFHLhjOT5ivRq41Q0zolYetNZmZUjrRntrPzCEbTwiSWBxPmkXsJvO1Z4HgagP54e7zsWbIkh3UMFBxitxpLkiTrNVwoe2I2AeC5njX74J6ceToYWbBhf5xbuljC4RT46AsvPilHqE3/R1NuaDv5vty2P06Dft4j5ghjhJ6EYIYsgymL4D4UgDBIVHaTPXem5CdGTYEJVsmMuM9QFBZfrbMlbiZwTsfP0F6+aavMeCkkSI9nR4ZmFkbJBphw4fjwqAb1vEkHkkZIZF95fkRflKchixM7y2Hoj3cwC2C3KR1u+3MqopTvSH+qrCEfGdHzagbDanlFVwGg57Oowbr1fZvKDlZrW11KDotB/LOVyoLC8B7ryzz1aCB+3oba2laNtHz6Cs+76v79dfFIOws5uJ9I3NN+508jq7w95zp/TU29VR7kACg5jYWk0jdRcd2divNiCGuwZKst2kEIoUtq0kfhV7bGSd3XwI/c32Rnh7hqVUs4vOqPwNTDK03jqun9EAAAAASUVORK5CYII=",
+                      "width": 80,
+                      "height": 80,
+                      "src": "/static/e69a6a8f8602369d66356866b5aba708/8b091/craftathon.png",
+                      "srcSet": "/static/e69a6a8f8602369d66356866b5aba708/8b091/craftathon.png 1x,\n/static/e69a6a8f8602369d66356866b5aba708/1e576/craftathon.png 1.5x,\n/static/e69a6a8f8602369d66356866b5aba708/6cb10/craftathon.png 2x",
+                      "srcWebp": "/static/e69a6a8f8602369d66356866b5aba708/3a287/craftathon.webp",
+                      "srcSetWebp": "/static/e69a6a8f8602369d66356866b5aba708/3a287/craftathon.webp 1x,\n/static/e69a6a8f8602369d66356866b5aba708/10741/craftathon.webp 1.5x,\n/static/e69a6a8f8602369d66356866b5aba708/edc3c/craftathon.webp 2x"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "html": "<p>Portugal Ultra Triathlon is a solidary adventure and a triple ironman. Its mission is to challenge participants' limits and their resilience, generate social value and supporting local communities.<br>\nI was behind the entire internet presence of the event, from the website itself down to the donation system and sysadmin work (setting up emails, custom domains, etc).</p>",
+              "frontmatter": {
+                "name": "Portugal Ultra Triathlon",
+                "link": "https://portugalultratriathlon.com",
+                "calltoaction": "Visit Website",
+                "background": "#1b4d7b",
+                "color": "#fff",
+                "icon": {
+                  "childImageSharp": {
+                    "fixed": {
+                      "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA3XAAAN1wFCKJt4AAACFElEQVQ4y42VTUhUURTH572RgqAWWbRwmRCtWhmIi6AoW7lRyEWr1u0Sd20aQnctXOnGVcugIkKNUsEoJOhjaAIZRMtm/KJSi/Cjef2O/d/z+FJnHvzm3Hfuuf9377nn3slkqjxRFCVWBGKXP1OLkBtkAtk9+rNe+ECxSqWy3caGzn+Y95NwPBUfJKJ+sFtSKLLyN0I/cS+xn+AdjMAtqPOiXmhbJD1bRM7j/y1WhbV/QAVewzHFBomYE2+AJmhR+xUswyh8hbPQ6sQihHo0NkySifMS7SGYhjIswThs0leAJTDhu9gB7BZMRv+ewV35xnFbHQuwYiKwBhMwD11wE+7BjGb1DPMevsG5JI/8tEvsLXzXV9sY0C//g9SOWq7vw4bI+T77GdaMxiRwR50dbjPq3aDr2pDxOIc8L5jAqTjgceyEWfijZS8S9BBbgj7ottJR7Bp9ttxFJ2rldNQEL0Q7Tx4+EDyl/Jj9pY/kNdtl7XQzcXPyxavLxTt8kZc3TnhDu2iiVswFGFBqrApOaHWPFP9Edixdg2fgKlzmI6flu6bgok5KpBx+UfszPFf7aXJe9zvcdn5dvX0k1nJdVG4nVfDr6u/011L6HAfx7N2JiVSDZeX3p0tTb61XV6hV2FV1Q8sr6dRYVVglXKl6H9oNlBZ1HzxCfz32kIsPql60qZnGF2qwx8kJa7q1a/gr+O/DfwE3p9Ib7o5RJAAAAABJRU5ErkJggg==",
+                      "width": 80,
+                      "height": 80,
+                      "src": "/static/b71a6dc009e44037c926d505aaeeafaa/8b091/put.png",
+                      "srcSet": "/static/b71a6dc009e44037c926d505aaeeafaa/8b091/put.png 1x,\n/static/b71a6dc009e44037c926d505aaeeafaa/1e576/put.png 1.5x,\n/static/b71a6dc009e44037c926d505aaeeafaa/6cb10/put.png 2x",
+                      "srcWebp": "/static/b71a6dc009e44037c926d505aaeeafaa/3a287/put.webp",
+                      "srcSetWebp": "/static/b71a6dc009e44037c926d505aaeeafaa/3a287/put.webp 1x,\n/static/b71a6dc009e44037c926d505aaeeafaa/10741/put.webp 1.5x,\n/static/b71a6dc009e44037c926d505aaeeafaa/edc3c/put.webp 2x"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "timeline": {
+          "nodes": [
+            {
+              "html": "<p>At this time, I started to have some interest in coding. In May 2014, I joined the <a href=\"https://bukkit.org/\">Bukkit</a> community, started learning Java and created my first Minecraft server.</p>",
+              "frontmatter": {
+                "title": "How it all started...",
+                "subtitle": "",
+                "date": "2014",
+                "iconName": "java",
+                "background": "#007396",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>After a few months of work, I've managed to create a Minecraft server with custom plugins! We also had a website with PayPal support to allow for donations, all custom made. The server was closed later that year, so I've decided to <a href=\"https://bitbucket.org/account/user/islandcraftgames/projects/ICG\">open source most of the code</a>.</p>",
+              "frontmatter": {
+                "title": "IslandCraftGames",
+                "subtitle": "My first custom made Minecraft server",
+                "date": "2015 - February 2016",
+                "iconName": "gamepad-variant",
+                "background": "#36b030",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>I joined a development team called Clout Team, which has since been taken down. We've worked on various projects, mostly related to Minecraft.<br>\nWhile working for Clout Team, I've started receiving money for programming, which was a huge achievement for me!</p>",
+              "frontmatter": {
+                "title": "Clout Team",
+                "subtitle": "My first experience working as a team",
+                "date": "July 2016",
+                "iconName": "account-group",
+                "background": "#fff",
+                "foreground": "#000"
+              }
+            },
+            {
+              "html": "<p>After closing IslandCraftGames, I decided to use some of the code to create a really seamless translation plugin and sell it on <a href=\"https://www.spigotmc.org/resources/triton.30331/\">Spigot</a> as MultiLanguagePlugin. It has recently been rebranded to <a href=\"https://triton.rexcantor64.com/\">Triton</a>.</p>",
+              "frontmatter": {
+                "title": "Triton",
+                "subtitle": "My first premium Spigot plugin",
+                "date": "October 2016",
+                "iconName": "translate",
+                "background": "#008ff8",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>I started working on an Android app called \"SchoolBit\" (which was then taken down due to legal reasons), that basically connected to my school system and shown the absences, summaries, grades, etc…</p>",
+              "frontmatter": {
+                "title": "SchoolBit",
+                "subtitle": "My first Android app",
+                "date": "February 2017",
+                "iconName": "schoolbit",
+                "background": "#f44336",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>I developed a website for my neighbour's company using <a href=\"https://materializecss.com/\">MaterializeCSS</a> for the front-end and <a href=\"https://php.net/\">PHP</a> for the back-end. Unfortunately, it's now offline.</p>",
+              "frontmatter": {
+                "title": "Portugal Live and Invest",
+                "subtitle": "",
+                "date": "April 2017",
+                "iconName": "home",
+                "background": "#1b1b1c",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>After 6 months of work, everything was ready for <a href=\"https://2017.craftathon.org/\">Craftathon 2017</a>! I joined other developers to create an amazing charity event in Minecraft, which was able to raise <em>$6,455.23</em> for <a href=\"https://childsplaycharity.org/\">Child's Play Charity</a>, improving the lives of children in domestic violence shelters and hospitals! I mainly worked on the website back-end, mostly on the payment system.</p>",
+              "frontmatter": {
+                "title": "Craftathon 2017",
+                "subtitle": "My first time as a volunteer",
+                "date": "July 2017",
+                "iconName": "heart",
+                "background": "#e91425",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>After Craftathon ended, I didn't have anything to do, so I made myself a challenge: create a <a href=\"https://github.com/Clout-Team/JarCraftinator\">fully working Minecraft server software from scratch</a>.<br>\n<strong>The goal?</strong> Learn more about how socket connections work in Java. And after a week I got my first loaded chunk! The project is far from finished and it will probably stay that way, but it was fun to do nonetheless.</p>",
+              "frontmatter": {
+                "title": "JARCraftinator",
+                "subtitle": "A custom made Minecraft server software",
+                "date": "August 2017",
+                "iconName": "java",
+                "background": "#007396",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>I designed a website for <a href=\"https://portugalultratriathlon.com/\">Portugal Ultra Triathlon</a>, an <em>«Adventure for Charity»</em> and a triple ironman triathlon. Apart from the design itself, I also made the whole contribution system.</p>",
+              "frontmatter": {
+                "title": "Portugal Ultra Triathlon",
+                "subtitle": "Another volunteering work",
+                "date": "May & June 2018",
+                "iconName": "put",
+                "background": "#1b4d7b",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>During Christmas, I helped with <a href=\"https://craftathon.org\">Craftathon 2018</a>! This time we were able to raise <em>$1,144</em>. Like in 2017, I mainly worked as a backend developer.</p>",
+              "frontmatter": {
+                "title": "Craftathon 2018",
+                "subtitle": "",
+                "date": "December 2018",
+                "iconName": "heart",
+                "background": "#e91425",
+                "foreground": "#fff"
+              }
+            },
+            {
+              "html": "<p>In the v1.0.0 update for Triton, my Spigot premium plugin, I've introduced <a href=\"https://twin.rexcantor64.com/demo\">TWIN</a>, a web interface to configure the plugin. It was my first consumer-facing web app made with React and other new web technologies.</p>",
+              "frontmatter": {
+                "title": "Triton Web Interface",
+                "subtitle": "My first consumer-facing React app",
+                "date": "January 2019",
+                "iconName": "translate",
+                "background": "#008ff8",
+                "foreground": "#fff"
+              }
+            }
+          ]
+        }
+      },
+      "pageContext": {
+        "isCreatedByStatefulCreatePages": true
+      }
+    }
+  }

@@ -4,7 +4,7 @@
 * Make nodes background black -- **DONE**
 * Less nodes & make nodes move slower -- **DONE**
 * Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly)
-* Make Navbar black (same color as the particles-js background)
+* Make Navbar black (same color as the particles-js background) -- **DONE**
 * Make the bottom edge of the Navbar have a shadow
 * Make Navbar faded & fade in after scrolling down
   * 1 scroll *tick* from the top is when the Navbar should start fading in/out

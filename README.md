@@ -20,6 +20,7 @@
 * Add a dynamic **Timeline**
 * Fix scroll-up button OR Make the HOME on the Navbar act as a scroll-to-top button
 * Make a nested Footer (top part with info being dark grey AND the copyright thing at the bottom be black)
+* Make resume open on new tab
 
 ## Optional TODO
 * Add a profile pic on top of the name at the top of the page

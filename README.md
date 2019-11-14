@@ -8,6 +8,7 @@
 * Make the bottom edge of the Navbar have a shadow -- **DONE**
 * Make Navbar faded & fade in after scrolling down -- **DONE**
   * 1 scroll *tick* from the top is when the Navbar should start fading in/out
+* Change Navbar ordering (left align && put name on top right)
 * Turn the Navbar into a Hamburger Menu on mobile
 * Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly)
 * Center name on node background & make name smaller
@@ -24,7 +25,7 @@
 * Make resume open on new tab
 
 **<u>
-6/17
+6/18
 </u>**
 
 ## Optional TODO

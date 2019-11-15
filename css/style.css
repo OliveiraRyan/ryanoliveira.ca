@@ -25,7 +25,8 @@ html {
     overflow: hidden;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    padding-left: 20px;
 	overflow: hidden;
     background-color: rgba(27, 27, 27, 0);
 	position: fixed;
@@ -64,6 +65,11 @@ html {
     color: #3498DB;
     
 }
+
+.topbar-nav-right {
+    float: right;
+    padding-right: 20px;
+  }
 
 h1,
 h2,
@@ -135,8 +141,9 @@ a:hover {
 }
 
 #small-wrapper {
-    position: relative;;
-    height:20%;
+    position: relative;
+    /* height total should be 175 */
+    height:155.2px; 
     width:100%;
 }
 

@@ -15,7 +15,7 @@
   * Make this consistent across all screen sizes
     * Inherently an issue with hardcoded values
 * Add titles (student, etc.) under name
-* Add a **Hey!** section
+* Add a **Hey!** section -- **DONE**
 * Add a **Portfolio** section
   * Have the background of the **Portfolio** be the nodes background
 * Include **My top projects**
@@ -25,7 +25,7 @@
 * Make resume open on new tab -- **DONE**
 
 **<u>
-9/18
+10/18
 </u>**
 
 ## Optional TODO

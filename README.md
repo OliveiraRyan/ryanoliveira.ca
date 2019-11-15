@@ -11,7 +11,7 @@
 * Change Navbar ordering (right align && put name on top left)
 * Turn the Navbar into a Hamburger Menu on mobile
 * Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly)
-* Center name on node background & make name smaller
+* Center name on node background && choose a name size that fits well across all screen sizes
   * Make this consistent across all screen sizes
     * Inherently an issue with hardcoded values
 * Add titles (student, etc.) under name

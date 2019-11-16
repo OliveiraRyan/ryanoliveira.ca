@@ -14,14 +14,14 @@
   * Make this consistent across all screen sizes
     * Inherently an issue with hardcoded values
 * Add titles (student, etc.) under name && make it look pretty -- **DONE**
+* Fix scroll-up button position && make it fade in from bottom-right corner -- **DONE**
+* Fix scroll-up button anchor OR ~~Make the HOME on the Navbar act as a scroll-to-top button~~ -- **DONE**
+* Make resume open on new tab -- **DONE**
 * Add a **Hey!** section -- **DONE**
 * Add a **Portfolio** section
   * Have the background of the **Portfolio** be the nodes background
 * Include **My top projects**
 * Add a dynamic **Timeline**
-* Fix scroll-up button position && make it fade in from bottom-right corner -- **DONE**
-* Fix scroll-up button anchor OR ~~Make the HOME on the Navbar act as a scroll-to-top button~~ -- **DONE**
-* Make resume open on new tab -- **DONE**
 
 **<u>
 14/17
@@ -41,6 +41,7 @@
     * Allow user to close sidebar when clicking outside of the nav (to the right)
 * On Mobile - make the appearing/disappearing url bar at the top black/same color as navbar instead of default white
 * Change font for slogan
+* Make Navbar font bigger/bold
 
 ## NOTES
 * particles-js hangs *slightly* below screen height. Not really noticeable, but can be changed to be more precise -- **DONE**

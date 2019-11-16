@@ -20,7 +20,10 @@
 * Add a **Hey!** section -- **DONE**
 * Add a **Portfolio** section
   * Have the background of the **Portfolio** be the nodes background
-* Include **My top projects**
+* Include **My top projects** (Can change to **My Current Projects**)
+  * Terminal TicTacToe/Chess (make the block black and look like a terminal with white/green text?)
+  * Overwatch Data Parser
+  * Something not programming related? Maybe a Discord bot? 2 Might be good enough for now.
 * Add a dynamic **Timeline**
 
 **<u>

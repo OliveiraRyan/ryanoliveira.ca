@@ -112,7 +112,7 @@ html {
     left: 0px;
 }
 
-.sidenav a {
+.sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -121,8 +121,8 @@ html {
     transition: 0.3s;
 }
   
-.sidenav a:hover {
-    color: #f1f1f1;
+.sidebar a:hover {
+    color: #3498DB;
 }
 
 .sidebar .closebtn {
@@ -371,13 +371,12 @@ hr {
 --- Intro
 ============================ */
 
-/* TODO fix h4 font sizing for both resolution scales */
 @media only screen and (max-width: 510px) {
     .slogan h2 {
         font-size: 55px;
     }
     .slogan h4 {
-        font-size: 14px;
+        font-size: 17px;
     }
 }
 
@@ -386,7 +385,7 @@ hr {
         font-size: 90px;
     }
     .slogan h4 {
-        font-size: 20px;
+        font-size: 23px;
     }
   }
 
@@ -423,7 +422,7 @@ hr {
 }
 
 /* Center's the text vertically inside the Slogan div */
-.slogan h1,
+/* .slogan h1,
 .slogan h2,
 .slogan h3,
 .slogan h4,
@@ -434,6 +433,13 @@ hr {
     top: 50%;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+} */
+
+.slogan div {
+    text-align: center;
+    position: relative;
+    top: 50%;
     transform: translateY(-50%);
 }
 

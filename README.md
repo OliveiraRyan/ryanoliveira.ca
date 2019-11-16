@@ -9,13 +9,11 @@
 * Make Navbar faded & fade in after scrolling down -- **DONE**
   * 1 scroll *tick* from the top is when the Navbar should start fading in/out
 * Change Navbar ordering (right align && put name on top left) -- **DONE**
-* Turn the Navbar into a Hamburger Menu on mobile (or <600px horizontal res)
-* Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly)
-  * Apparently this is due to device vs resolution. It works properly on mobile, but NOT with a mobile resolution on desktop.
+* Turn the Navbar into a Hamburger Menu on mobile (or <600px horizontal res) -- **DONE**
 * Center name on node background && choose a name size that fits well across all screen sizes
   * Make this consistent across all screen sizes
     * Inherently an issue with hardcoded values
-* Add titles (student, etc.) under name
+* Add titles (student, etc.) under name && make it look pretty
 * Add a **Hey!** section -- **DONE**
 * Add a **Portfolio** section
   * Have the background of the **Portfolio** be the nodes background
@@ -26,7 +24,7 @@
 * Make resume open on new tab -- **DONE**
 
 **<u>
-11/18
+12/17
 </u>**
 
 ## Optional TODO
@@ -34,4 +32,16 @@
 * Add a profile pic on top of the name at the top of the page
 * Make an *Impossible List* section
   * Have the list in a JSON and have it auto-formatted on the page
-* particles-js hangs *slightly* below screen height. Not really noticeable, but can be improved
+* particles-js hangs *slightly* below screen height. Not really noticeable, but can be changed to be more precise
+* Make the sidebar more pretty
+  * Possibly have icons beside each list item
+  * Different color scheme?
+  * Maybe a stretch:
+    * Darken the rest of the webpage when active
+    * Remove ability to scroll when active
+    * Allow user to close sidebar when clicking outside of the nav (to the right)
+
+## NOTES
+* Bug - Mobile - Particle-js nodes are not working for the entire screen in portrait (Possibly linked to Name not being centered properly) -- **DONE** (apparently fixed from nothing by accident when working on other things)
+  * Apparently this is due to device vs resolution? It works properly on mobile, but NOT with a mobile resolution on desktop.
+* Bug - wrapper-small div bugs out on mobile when scrolling - most likely due to the appearing/disappearing url bar at the top

@@ -244,6 +244,34 @@ a:hover {
     .about h1 {
       font-size: 46px; }
 
+/* ===========================
+--- Main Body
+============================ */
+
+.multibox-root {
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.multicontainer-root {
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 1280px;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
 /* =========================== I MADE IT UP TO HERE ============================ */
 
 /* loader */
@@ -383,7 +411,7 @@ hr {
 
 
 /* ===========================
---- Intro
+--- Intro && Slogans
 ============================ */
 
 @media only screen and (max-width: 510px) {
@@ -436,21 +464,6 @@ hr {
 	text-align: center;
 }
 
-/* Center's the text vertically inside the Slogan div */
-/* .slogan h1,
-.slogan h2,
-.slogan h3,
-.slogan h4,
-.slogan h5,
-.slogan h6 {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-} */
-
 .slogan div {
     text-align: center;
     position: relative;
@@ -492,39 +505,14 @@ hr {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 
-    font-size: 32px;
+    font-size: 30px;
 }
 
  .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
 }
-
-.multibox-root {
-    background-color: white;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.multicontainer-root {
-    padding-left: 32px;
-    padding-right: 32px;
-    width: 100%;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    
-    max-width: 1280px;
-}
-
-.projects {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
-}
-
-  
+ 
   
 /* ===========================
 --- About

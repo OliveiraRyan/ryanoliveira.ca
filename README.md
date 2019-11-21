@@ -33,6 +33,7 @@
 ## Optional TODO
 * Add a sneaky lenny face -- **DONE**
 * Make a nested Footer (top part with info being dark grey AND the copyright thing at the bottom be black)
+  * Can make the links at the bottom (github, etc.) the same color as the top title/slogan
 * Add a profile pic on top of the name at the top of the page
 * Make an *Impossible List* section
   * Have the list in a JSON and have it auto-formatted on the page
@@ -46,6 +47,7 @@
 * On Mobile - make the appearing/disappearing url bar at the top black/same color as navbar instead of default white
 * Change font for slogan
 * Make Navbar font bigger/bold
+* Slow down scroll speed for back-to-top btn
 
 **<u>
 1/??

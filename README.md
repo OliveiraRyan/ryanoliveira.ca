@@ -18,7 +18,7 @@
 * Fix scroll-up button anchor OR ~~Make the HOME on the Navbar act as a scroll-to-top button~~ -- **DONE**
 * Make resume open on new tab -- **DONE**
 * Add a **Hey!** section -- **DONE**
-* Add a **Portfolio** section
+* Add a **Portfolio** section -- **DONE**
   * Have the background of the **Portfolio** be the nodes background
 * Include **My top projects** (Can change to **My Current Projects**)
   * Terminal TicTacToe/Chess (make the block black and look like a terminal with white/green text?)
@@ -27,10 +27,11 @@
 * Add a dynamic **Timeline**
 
 **<u>
-14/17
+15/17
 </u>**
 
 ## Optional TODO
+* Add a sneaky lenny face -- **DONE**
 * Make a nested Footer (top part with info being dark grey AND the copyright thing at the bottom be black)
 * Add a profile pic on top of the name at the top of the page
 * Make an *Impossible List* section
@@ -45,6 +46,10 @@
 * On Mobile - make the appearing/disappearing url bar at the top black/same color as navbar instead of default white
 * Change font for slogan
 * Make Navbar font bigger/bold
+
+**<u>
+1/??
+</u>**
 
 ## NOTES
 * particles-js hangs *slightly* below screen height. Not really noticeable, but can be changed to be more precise -- **DONE**

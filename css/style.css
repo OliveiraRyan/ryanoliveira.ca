@@ -214,9 +214,24 @@ a:hover {
 
 #small-wrapper {
     position: relative;
+    display: flex;
     /* height total should be 175 */
-    height:155.2px; 
+    /* height:155.2px;  */
+    height: 175px;
     width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sneaky {
+    font-size: 18px;
+    color: #282828;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 5px;
+    top: 0px !important;
+    left: 0px !important;
+    position: absolute;
 }
 
 .about {
@@ -455,12 +470,58 @@ hr {
 	border-color: #000;
 	border-style: none;
     text-shadow: -1px 0 1px #000;
+}
 
+.slogan h3 {
+	color: #FFF;
+	text-shadow: none;
+	font-weight: 700;
+	font-family: Montserrat, sans-serif;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: #000;
+	border-style: none;
+    text-shadow: -1px 0 1px #000;
+
+    text-align: center;
+    position: relative;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    font-size: 32px;
 }
 
  .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
+}
+
+.multibox-root {
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.multicontainer-root {
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 1280px;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
 }
 
   

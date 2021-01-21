@@ -40,6 +40,7 @@
 * On Mobile - make the appearing/disappearing url bar at the top black/same color as navbar instead of default white
 * Change font for slogan
 * Make Navbar font bigger/bold
+* Add a blog section
 
 ## NOTES
 * particles-js hangs *slightly* below screen height. Not really noticeable, but can be changed to be more precise -- **DONE**

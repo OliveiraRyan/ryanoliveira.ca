@@ -19,9 +19,15 @@
 * Make resume open on new tab -- **DONE**
 * Add a **Hey!** section -- **DONE**
 * Add a **Portfolio** section
-  * Have the background of the **Portfolio** be the nodes background
-* Include **My top projects**
-* Add a dynamic **Timeline**
+  * Include **My top projects**
+* Make the sidebar more pretty
+  * Possibly have icons beside each list item
+  * Different color scheme?
+  * Maybe a stretch:
+    * Darken the rest of the webpage when active
+    * Remove ability to scroll when active
+    * Allow user to close sidebar when clicking outside of the nav (to the right)
+* Make a message box at the bottom that sends me an email
 
 **<u>
 14/17
@@ -30,15 +36,7 @@
 ## Optional TODO
 * Make a nested Footer (top part with info being dark grey AND the copyright thing at the bottom be black)
 * Add a profile pic on top of the name at the top of the page
-* Make an *Impossible List* section
-  * Have the list in a JSON and have it auto-formatted on the page
-* Make the sidebar more pretty
-  * Possibly have icons beside each list item
-  * Different color scheme?
-  * Maybe a stretch:
-    * Darken the rest of the webpage when active
-    * Remove ability to scroll when active
-    * Allow user to close sidebar when clicking outside of the nav (to the right)
+
 * On Mobile - make the appearing/disappearing url bar at the top black/same color as navbar instead of default white
 * Change font for slogan
 * Make Navbar font bigger/bold
